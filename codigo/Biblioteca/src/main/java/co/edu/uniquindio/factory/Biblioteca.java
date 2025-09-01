@@ -62,7 +62,7 @@ public class Biblioteca {
                 return usuario.getListaPrestamos().size();
             }
         }
-        return 0; // Si no encuentra el usuario
+        return 0;
     }
 
     public void mostrarInfo() {
